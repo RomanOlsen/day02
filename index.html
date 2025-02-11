@@ -16,25 +16,36 @@
 
 <body>
 
-  <header>
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1764px-Epic_Games_logo.svg.png"
-      alt="Epic Games/Site">
-    <span> Epic Site 1</span>
-    <span> About </span>
-    <span> Services </span>
-    <span> Let's Connect </span>
+  <header class="displayFlex alignItemsCenter justifyContentEvenly">
+    <div class="displayFlex alignItemsCenter">
+      <img class="logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1764px-Epic_Games_logo.svg.png"
+        alt="Epic Games/Site">
+      <span class="footer1"> Epic Site 1</span>
+      <!-- uses footer1s margin setting -->
+    </div>
+    <div>
+      <span class="navbuttons"> About </span>
+      <span class="navbuttons"> Services </span>
+      <span class="navbuttons connectButton"> Let's Connect </span>
+    </div>
   </header>
 
-  <main class="displayFlex">
+  <main class="displayFlex justifyContentEvenly">
 
-    <p> Our Service to You</p>
-    <h1> Creating apps with infinite scalability around the world </h1>
-    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ipsam fuga id! Provident odit, aperiam natus
-      recusandae illo corporis necessitatibus cumque commodi impedit minus ut ullam accusamus et delectus officiis unde
-      eligendi quisquam consequuntur reiciendis blanditiis? Repellendus sed minus a. </p>
-    <img src="https://www.pngall.com/wp-content/uploads/1/World-Map-PNG.png" class="img-fluid rounded-top"
-      alt="THE WORLD" />
+    <div class="mainParagraph">
+      <div class="servicesColor">
+        <p> Our Service to You</p>
+      </div>
+      <h1> Creating apps with infinite scalability around the world </h1>
+      <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ipsam fuga id! Provident odit, aperiam natus
+        recusandae illo corporis necessitatibus cumque commodi impedit minus ut ullam accusamus et delectus officiis
+        unde
+        eligendi quisquam consequuntur reiciendis blanditiis? Repellendus sed minus a. </p>
+    </div>
+
+    <div class="worldImage"> <img src="https://www.pngall.com/wp-content/uploads/1/World-Map-PNG.png"
+        class="img-fluid rounded-top" alt="THE WORLD" /> </div>
 
   </main>
 
@@ -45,7 +56,7 @@
     <span> <a href="http://bing.com">Our Accessibility Standard</a> </span>
   </footer>
 
-  <footer class="text-center footer2color footer2">
+  <footer class="text-center footer2">
     <h2> From Reality to Ideas </h2>
     <p> If you can build it, you can definitely dream it. </p>
   </footer>

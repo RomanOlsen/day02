@@ -1,5 +1,17 @@
 main {
   background-color: rgb(0, 55, 122);
+  padding: 150px;
+  color: white
+}
+
+.navbuttons {
+  margin: 1rem;
+}
+
+.connectButton {
+  background-color: rgb(0, 38, 153);
+  padding: 15px;
+  border-radius: 10rem;
 }
 
 .footer1 {
@@ -22,15 +34,37 @@ body {
   align-items: center;
 }
 
-.footer2color {
-  /* I thought of the footer 2 color rule myself :) */
-  background-color: lightgray;
-}
-
 .text-center {
   text-align: center;
 }
 
 .footer2 {
   padding: 30px;
+  background-color: lightgray;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.worldImage {
+  width: 45%
+}
+
+.mainParagraph {
+  width: 45%
+}
+
+.logo {
+  width: 50px;
+}
+
+header {
+  background-color: rgb(0, 24, 103);
+  color: white
+}
+
+.servicesColor {
+  color: rgb(0, 255, 89)
 }
