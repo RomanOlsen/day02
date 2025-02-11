@@ -1,0 +1,36 @@
+main {
+  background-color: rgb(0, 55, 122);
+}
+
+.footer1 {
+  margin: 2rem
+}
+
+body {
+  margin: 0px
+}
+
+.displayFlex {
+  display: flex
+}
+
+.justifyContentEvenly {
+  justify-content: space-evenly;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.footer2color {
+  /* I thought of the footer 2 color rule myself :) */
+  background-color: lightgray;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer2 {
+  padding: 30px;
+}
